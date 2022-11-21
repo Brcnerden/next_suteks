@@ -5,8 +5,7 @@ import T from "./Text.styles";
 const Text = ({
   textColor = "black$500",
   fontFamily = "Ogg-Regular",
-  size = "lx",
-
+  size = "md",
   children,
   ...props
 }) => {

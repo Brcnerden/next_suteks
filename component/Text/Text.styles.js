@@ -1,13 +1,14 @@
 import styled from "@emotion/styled";
 
-import { FONTS, FONTS_SIZES } from "theme/fonts";
-import COLORS from "theme/colors";
+import FONTS from "../../theme/fonts";
+import FONT_SIZES from "../../theme/fontSizes";
+import COLORS from "../../theme/colors";
 
 const T = {};
 
 T.Text = styled.p`
   color: ${({ textColor }) => COLORS[textColor]};
-  ${({ textSize }) => FONTS_SIZES[textSize]}
+  ${({ textSize }) => FONT_SIZES[textSize]}
   ${({ textFamily }) => FONTS[textFamily]}
 `;
 
