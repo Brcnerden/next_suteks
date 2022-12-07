@@ -15,11 +15,12 @@ H.Header = styled.header`
 
   @media screen and (max-width: 900px) {
     padding: 40px 20px;
+    font-family: ${FONTS.oggRegular};
   }
   > div {
     z-index: 90;
     @media screen and (max-width: 900px) {
-      padding: 195px 57px 108px 57px;
+      padding: 195px 5% 108px 5%;
       position: fixed;
       margin: 0;
       top: 0;
@@ -29,7 +30,6 @@ H.Header = styled.header`
       overflow: auto;
       background-color: ${COLORS.white};
       > span {
-        ${FONTS.avertaRegular}
         ${FONT_SIZES.md}
         ${COLORS.black$500}
       }
@@ -53,13 +53,13 @@ H.Header = styled.header`
   div > ul {
     display: flex;
     color: #57777b;
-    ${FONTS.avertaRegular};
     ${FONT_SIZES.xs}
     line-height: 24px;
     @media screen and (max-width: 900px) {
       display: flex;
       flex-direction: column;
       line-height: 70px;
+      padding-left: 0;
     }
   }
 
@@ -70,9 +70,11 @@ H.Header = styled.header`
       padding-left: 25px;
     }
     @media screen and (max-width: 900px) {
-      ${FONTS.oggRegular};
+      font-family: ${FONTS.oggRegular};
       ${FONT_SIZES.l}
       line-height: 70px;
+      padding-left: 0;
+      text-align: center;
     }
   }
 `;
@@ -80,10 +82,12 @@ H.Header = styled.header`
 H.Footer = styled.div`
   display: none;
   @media screen and (max-width: 900px) {
+    margin: 21px;
     display: block;
+    align-items: center;
     span {
-      margin-right: 16px;
-      ${FONTS.avertaRegular};
+      font-size: ${FONT_SIZES.xs};
+      padding-right: 21px;
     }
   }
 `;

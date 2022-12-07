@@ -19,7 +19,7 @@ const Header = ({ isMenuOpen, setState }) => {
         B
       </H.Button>
 
-      <div>
+      <Text fontFamily="avertaRegular" textColor="blue$500" as="div">
         <ul>
           <Link href="#">
             <li>ABOUT US</li>
@@ -41,14 +41,14 @@ const Header = ({ isMenuOpen, setState }) => {
           </Link>
         </ul>
         <H.Footer>
-          <Text fontFamily="Averta-Regular" as="span">
+          <Text fontFamily="avertaRegular" as="span">
             Follow us:
           </Text>
           <LinkedinLogo />
           <InstagramLogo />
           <FooterLogo />
         </H.Footer>
-      </div>
+      </Text>
     </H.Header>
   );
 };

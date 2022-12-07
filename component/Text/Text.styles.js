@@ -9,7 +9,7 @@ const T = {};
 T.Text = styled.p`
   color: ${({ textColor }) => COLORS[textColor]};
   ${({ textSize }) => FONT_SIZES[textSize]}
-  ${({ textFamily }) => FONTS[textFamily]}
+  font-family: ${({ textFamily }) => FONTS[textFamily]}
 `;
 
 export default T;

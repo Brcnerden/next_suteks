@@ -4,7 +4,7 @@ import T from "./Text.styles";
 
 const Text = ({
   textColor = "black$500",
-  fontFamily = "Ogg-Regular",
+  fontFamily = "oggRegular",
   size = "md",
   children,
   ...props

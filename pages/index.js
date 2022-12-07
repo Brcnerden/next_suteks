@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Layout>
         <div>
-          <Text>
+          <Text fontFamily="oggRegular">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed
             auctor nulla, at congue lacus. Integer vel vulputate mauris. Nunc
             accumsan sem non enim euismod, quis lacinia sem tristique. Mauris a

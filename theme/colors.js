@@ -7,6 +7,7 @@ const COLORS = {
   gray$50: "#E9E9E9",
   gray$100: "#F2F2F2",
   gray$400: "#777D83",
+  gray$500: "#414141",
   black$500: "#161616",
   black$500op2: "rgba(22,22,22,.2)",
   black$1000: "#000000",
