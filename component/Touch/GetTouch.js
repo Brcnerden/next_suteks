@@ -13,7 +13,7 @@ const GetTouch = () => {
       </Text>
       <button>
         <G.Arrow>
-          CONTACT US
+          <Text>CONTACT US</Text>
           <Arrow />
         </G.Arrow>
       </button>

@@ -7,8 +7,11 @@ const Slider = ({ title, name }) => {
       <Text fontFamily="oggRegular" size="lm" as="h3">
         {title}
       </Text>
-
-      <Text as="p">{name}</Text>
+      <S.Name>
+        <span />
+        <Text as="p">{name}</Text>
+      </S.Name>
+      <button>READ MORE</button>
     </S.Slider>
   );
 };

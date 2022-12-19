@@ -9,7 +9,7 @@ G.Touch = styled.div`
   margin-left: auto;
   margin-right: auto;
 
-  p {
+  > p {
     margin-top: 48px;
     margin-bottom: 55px;
   }
