@@ -1,8 +1,6 @@
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import Slider from "../Slider/slider";
-import ArrowSliderL from "../svg/ArrowSliderL";
-import ArrowSliderR from "../svg/ArrowSliderR";
 import { Navigation } from "swiper";
 
 import { B } from "./Box.styles";

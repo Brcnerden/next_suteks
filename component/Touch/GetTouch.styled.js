@@ -21,6 +21,7 @@ G.Touch = styled.div`
     border-radius: 5px;
     border: none;
     text-decoration: underline;
+    margin-bottom: 96px;
   }
 
   @media screen and (max-width: 900px) {

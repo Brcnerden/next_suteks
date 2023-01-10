@@ -12,6 +12,10 @@ L.div = styled.div`
       overflow: hidden;
       height: 100%;
     `}
+
+  >h2 {
+    margin: 59px 395px 68px 60px;
+  }
 `;
 
 export default L;

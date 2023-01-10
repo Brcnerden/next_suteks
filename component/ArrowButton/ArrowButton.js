@@ -1,6 +1,7 @@
 import ArrowSliderR from "../svg/ArrowSliderR";
 import ArrowSliderL from "../svg/ArrowSliderL";
 import { useSwiper } from "swiper/react";
+import { A } from "./ArrowButton.styled";
 
 const ArrowButton = ({ isNext }) => {
   const swiper = useSwiper();
@@ -11,9 +12,9 @@ const ArrowButton = ({ isNext }) => {
   };
 
   return (
-    <button onClick={handleClick}>
+    <A.Button isNext={isNext} onClick={handleClick}>
       {isNext ? <ArrowSliderR /> : <ArrowSliderL />}
-    </button>
+    </A.Button>
   );
 };
 

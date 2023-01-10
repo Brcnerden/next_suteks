@@ -1,9 +1,12 @@
 import L from "./Footer.styled";
 import Text from "../Text/Text";
-import COLORS from "../../theme/colors";
+import Line from "../svg/Line";
+
 const Footer = () => {
   return (
     <L.Header>
+      <Line />
+
       <img src="./Images/Vector (4).png" alt="logo" />
       <L.Text className="AboutUs">
         <div>
